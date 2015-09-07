@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		840481DB1B9A0E830094D72A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840481DA1B9A0E830094D72A /* main.m */; };
 		840481DE1B9A0E830094D72A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840481DD1B9A0E830094D72A /* AppDelegate.m */; };
-		840481E11B9A0E830094D72A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840481E01B9A0E830094D72A /* ViewController.m */; };
-		840481E41B9A0E830094D72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840481E21B9A0E830094D72A /* Main.storyboard */; };
 		840481E61B9A0E830094D72A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840481E51B9A0E830094D72A /* Images.xcassets */; };
 		840481E91B9A0E830094D72A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840481E71B9A0E830094D72A /* LaunchScreen.xib */; };
 		840481F51B9A0E830094D72A /* ClickGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840481F41B9A0E830094D72A /* ClickGameTests.m */; };
+		8404821F1B9A0EE70094D72A /* ClickMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404821C1B9A0EE70094D72A /* ClickMainViewController.m */; };
+		840482201B9A0EE70094D72A /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404821E1B9A0EE70094D72A /* InformationViewController.m */; };
+		840482221B9A0F1C0094D72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840482211B9A0F1C0094D72A /* Main.storyboard */; };
+		84118B041B9AF7D9002D237A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84118B031B9AF7D9002D237A /* Reachability.m */; };
+		848C63A81B9B7D9A001831C9 /* InformationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C63A71B9B7D9A001831C9 /* InformationViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		840481DA1B9A0E830094D72A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		840481DC1B9A0E830094D72A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		840481DD1B9A0E830094D72A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		840481DF1B9A0E830094D72A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		840481E01B9A0E830094D72A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		840481E31B9A0E830094D72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840481E51B9A0E830094D72A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		840481E81B9A0E830094D72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		840481EE1B9A0E830094D72A /* ClickGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840481F31B9A0E830094D72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840481F41B9A0E830094D72A /* ClickGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickGameTests.m; sourceTree = "<group>"; };
+		8404821B1B9A0EE70094D72A /* ClickMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickMainViewController.h; sourceTree = "<group>"; };
+		8404821C1B9A0EE70094D72A /* ClickMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickMainViewController.m; sourceTree = "<group>"; };
+		8404821D1B9A0EE70094D72A /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		8404821E1B9A0EE70094D72A /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		840482211B9A0F1C0094D72A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84118B021B9AF7D9002D237A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		84118B031B9AF7D9002D237A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		848C63A61B9B7D9A001831C9 /* InformationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewCell.h; sourceTree = "<group>"; };
+		848C63A71B9B7D9A001831C9 /* InformationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +90,17 @@
 		840481D71B9A0E830094D72A /* ClickGame */ = {
 			isa = PBXGroup;
 			children = (
+				84118B021B9AF7D9002D237A /* Reachability.h */,
+				84118B031B9AF7D9002D237A /* Reachability.m */,
+				840482211B9A0F1C0094D72A /* Main.storyboard */,
+				848C63A61B9B7D9A001831C9 /* InformationViewCell.h */,
+				848C63A71B9B7D9A001831C9 /* InformationViewCell.m */,
+				8404821B1B9A0EE70094D72A /* ClickMainViewController.h */,
+				8404821C1B9A0EE70094D72A /* ClickMainViewController.m */,
+				8404821D1B9A0EE70094D72A /* InformationViewController.h */,
+				8404821E1B9A0EE70094D72A /* InformationViewController.m */,
 				840481DC1B9A0E830094D72A /* AppDelegate.h */,
 				840481DD1B9A0E830094D72A /* AppDelegate.m */,
-				840481DF1B9A0E830094D72A /* ViewController.h */,
-				840481E01B9A0E830094D72A /* ViewController.m */,
-				840481E21B9A0E830094D72A /* Main.storyboard */,
 				840481E51B9A0E830094D72A /* Images.xcassets */,
 				840481E71B9A0E830094D72A /* LaunchScreen.xib */,
 				840481D81B9A0E830094D72A /* Supporting Files */,
@@ -199,7 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840481E41B9A0E830094D72A /* Main.storyboard in Resources */,
+				840482221B9A0F1C0094D72A /* Main.storyboard in Resources */,
 				840481E91B9A0E830094D72A /* LaunchScreen.xib in Resources */,
 				840481E61B9A0E830094D72A /* Images.xcassets in Resources */,
 			);
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840481E11B9A0E830094D72A /* ViewController.m in Sources */,
+				840482201B9A0EE70094D72A /* InformationViewController.m in Sources */,
+				8404821F1B9A0EE70094D72A /* ClickMainViewController.m in Sources */,
 				840481DE1B9A0E830094D72A /* AppDelegate.m in Sources */,
+				848C63A81B9B7D9A001831C9 /* InformationViewCell.m in Sources */,
 				840481DB1B9A0E830094D72A /* main.m in Sources */,
+				84118B041B9AF7D9002D237A /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +262,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		840481E21B9A0E830094D72A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840481E31B9A0E830094D72A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		840481E71B9A0E830094D72A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,7 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ClickGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,7 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ClickGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +428,7 @@
 				840481FA1B9A0E830094D72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840481FB1B9A0E830094D72A /* Build configuration list for PBXNativeTarget "ClickGameTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +437,7 @@
 				840481FD1B9A0E830094D72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
